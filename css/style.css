@@ -1,0 +1,70 @@
+.recipe-box{
+    background-color:rgba(253, 252, 214, 0.9);
+    outline:outset;
+    border-radius:6%;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:4%;
+    padding-right:4%;
+    margin:3%;
+    max-width:620px;
+}
+
+body{
+    background-color:rgb(255, 255, 245);
+}
+
+.description, .ingredients, .steps{
+    background-color:rgba(253, 252, 214, 0.9);
+    outline:outset;
+    border-radius:6%;
+    padding-bottom:1%;
+    padding-left:4%;
+    padding-right:4%;
+    margin:3%;
+    max-width:620px;
+}
+
+.description-text, .ingredients-text, .steps-text{
+    margin-left:4%;
+}
+
+#lasagna{
+    background-image:url(../img/italy.jpg);
+    background-position-x:right;
+    background-position-y:bottom;
+}
+
+#fried-rice{
+    background-image:url(../img/jiangsu-china.jpg);
+    background-position-x:left;
+    background-position-y:bottom;
+}
+
+#honey-chicken{
+    background-image:url(../img/honey.jpeg);
+}
+
+#home{
+    background-image:url(../img/recipes.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position-x:center;
+
+}
+
+.recipe{
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+
+.recipe-page-image{
+    border-radius:50%;
+}
+
+.recipe-name{
+    margin-left:12%;
+    text-shadow: 3px 0 #fff;
+    
+}
